@@ -1,0 +1,20 @@
+{
+  "name": "javascript2-sosial-media-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass input-directory:output-directory",
+    "watch": "sass --watch src/scss:dist/css & live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "sass": "^1.75.0"
+  }
+}
